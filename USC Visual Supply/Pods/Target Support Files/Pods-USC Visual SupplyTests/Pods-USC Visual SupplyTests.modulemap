@@ -1,0 +1,6 @@
+framework module Pods_USC_Visual_SupplyTests {
+  umbrella header "Pods-USC Visual SupplyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

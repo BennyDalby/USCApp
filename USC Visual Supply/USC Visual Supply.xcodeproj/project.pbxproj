@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D660D96CD3CADF5BE7B5DC8 /* Pods_USC_Visual_SupplyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C4AC591D511AC890594ADE /* Pods_USC_Visual_SupplyTests.framework */; };
+		47C4AFFFF28FE72813E48849 /* Pods_USC_Visual_Supply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9FED773C94462D9E825336 /* Pods_USC_Visual_Supply.framework */; };
+		EE2C588227527A6B008817DC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C588127527A6B008817DC /* ImageViewController.swift */; };
+		EE2C588327527A6B008817DC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C588127527A6B008817DC /* ImageViewController.swift */; };
+		EE2C588427527A6B008817DC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C588127527A6B008817DC /* ImageViewController.swift */; };
+		EE2C58872752EBC2008817DC /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C58852752EBC2008817DC /* ImageCollectionViewCell.swift */; };
+		EE2C58882752EBC2008817DC /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2C58862752EBC2008817DC /* ImageCollectionViewCell.xib */; };
+		EE2C58AA275C11F8008817DC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C58A9275C11F8008817DC /* ARViewController.swift */; };
+		EE2C58AC27651776008817DC /* imageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C58AB27651776008817DC /* imageModel.swift */; };
+		EE2C58AE276EBA64008817DC /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C58AD276EBA63008817DC /* ImageDetailViewController.swift */; };
+		EEAC610927498A960022293A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC610827498A960022293A /* AppDelegate.swift */; };
+		EEAC610B27498A960022293A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC610A27498A960022293A /* SceneDelegate.swift */; };
+		EEAC610D27498A960022293A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC610C27498A960022293A /* ViewController.swift */; };
+		EEAC611027498A960022293A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAC610E27498A960022293A /* Main.storyboard */; };
+		EEAC611227498A970022293A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAC611127498A970022293A /* Assets.xcassets */; };
+		EEAC611527498A970022293A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAC611327498A970022293A /* LaunchScreen.storyboard */; };
+		EEAC612027498A970022293A /* USC_Visual_SupplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC611F27498A970022293A /* USC_Visual_SupplyTests.swift */; };
+		EEAC612A27498A970022293A /* USC_Visual_SupplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC612927498A970022293A /* USC_Visual_SupplyUITests.swift */; };
+		EEAC612C27498A970022293A /* USC_Visual_SupplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC612B27498A970022293A /* USC_Visual_SupplyUITestsLaunchTests.swift */; };
+		EED79AEA27878CD6002DD13D /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED79AE927878CD6002DD13D /* GlobalVariables.swift */; };
+		FDC11CA02CAC4ED6253597FC /* Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAD0AC2CDD17D16255D870 /* Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEAC611C27498A970022293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEAC60FD27498A960022293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAC610427498A960022293A;
+			remoteInfo = "USC Visual Supply";
+		};
+		EEAC612627498A970022293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEAC60FD27498A960022293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAC610427498A960022293A;
+			remoteInfo = "USC Visual Supply";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5194DF0DE5BC1DBE840618 /* Pods-USC Visual Supply-USC Visual SupplyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual Supply-USC Visual SupplyUITests.release.xcconfig"; path = "Target Support Files/Pods-USC Visual Supply-USC Visual SupplyUITests/Pods-USC Visual Supply-USC Visual SupplyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49477FD464C92C31F9141B61 /* Pods-USC Visual Supply-USC Visual SupplyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual Supply-USC Visual SupplyUITests.debug.xcconfig"; path = "Target Support Files/Pods-USC Visual Supply-USC Visual SupplyUITests/Pods-USC Visual Supply-USC Visual SupplyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C253F8D64FCC195D3B5F809 /* Pods-USC Visual Supply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual Supply.release.xcconfig"; path = "Target Support Files/Pods-USC Visual Supply/Pods-USC Visual Supply.release.xcconfig"; sourceTree = "<group>"; };
+		89DB3292541D8BEE0738960B /* Pods-USC Visual SupplyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual SupplyTests.debug.xcconfig"; path = "Target Support Files/Pods-USC Visual SupplyTests/Pods-USC Visual SupplyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95FEACCE19B47C62E1E822B5 /* Pods-USC Visual SupplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual SupplyTests.release.xcconfig"; path = "Target Support Files/Pods-USC Visual SupplyTests/Pods-USC Visual SupplyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0DAD0AC2CDD17D16255D870 /* Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C4AC591D511AC890594ADE /* Pods_USC_Visual_SupplyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USC_Visual_SupplyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FED773C94462D9E825336 /* Pods_USC_Visual_Supply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USC_Visual_Supply.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B341B13795D0A1206F05CE /* Pods-USC Visual Supply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USC Visual Supply.debug.xcconfig"; path = "Target Support Files/Pods-USC Visual Supply/Pods-USC Visual Supply.debug.xcconfig"; sourceTree = "<group>"; };
+		EE2C588127527A6B008817DC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EE2C58852752EBC2008817DC /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE2C58862752EBC2008817DC /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE2C58A9275C11F8008817DC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		EE2C58AB27651776008817DC /* imageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageModel.swift; sourceTree = "<group>"; };
+		EE2C58AD276EBA63008817DC /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		EEAC610527498A960022293A /* USC Visual Supply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USC Visual Supply.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAC610827498A960022293A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEAC610A27498A960022293A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEAC610C27498A960022293A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEAC610F27498A960022293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEAC611127498A970022293A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAC611427498A970022293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEAC611627498A970022293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAC611B27498A970022293A /* USC Visual SupplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USC Visual SupplyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAC611F27498A970022293A /* USC_Visual_SupplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USC_Visual_SupplyTests.swift; sourceTree = "<group>"; };
+		EEAC612527498A970022293A /* USC Visual SupplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USC Visual SupplyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAC612927498A970022293A /* USC_Visual_SupplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USC_Visual_SupplyUITests.swift; sourceTree = "<group>"; };
+		EEAC612B27498A970022293A /* USC_Visual_SupplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USC_Visual_SupplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EED79AE927878CD6002DD13D /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAC610227498A960022293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C4AFFFF28FE72813E48849 /* Pods_USC_Visual_Supply.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC611827498A970022293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D660D96CD3CADF5BE7B5DC8 /* Pods_USC_Visual_SupplyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC612227498A970022293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC11CA02CAC4ED6253597FC /* Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B1342849AAB3DB6C6A287F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B341B13795D0A1206F05CE /* Pods-USC Visual Supply.debug.xcconfig */,
+				7C253F8D64FCC195D3B5F809 /* Pods-USC Visual Supply.release.xcconfig */,
+				49477FD464C92C31F9141B61 /* Pods-USC Visual Supply-USC Visual SupplyUITests.debug.xcconfig */,
+				2C5194DF0DE5BC1DBE840618 /* Pods-USC Visual Supply-USC Visual SupplyUITests.release.xcconfig */,
+				89DB3292541D8BEE0738960B /* Pods-USC Visual SupplyTests.debug.xcconfig */,
+				95FEACCE19B47C62E1E822B5 /* Pods-USC Visual SupplyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		925FD615D485554B53D36B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FED773C94462D9E825336 /* Pods_USC_Visual_Supply.framework */,
+				B0DAD0AC2CDD17D16255D870 /* Pods_USC_Visual_Supply_USC_Visual_SupplyUITests.framework */,
+				C3C4AC591D511AC890594ADE /* Pods_USC_Visual_SupplyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEAC60FC27498A960022293A = {
+			isa = PBXGroup;
+			children = (
+				EEAC610727498A960022293A /* USC Visual Supply */,
+				EEAC611E27498A970022293A /* USC Visual SupplyTests */,
+				EEAC612827498A970022293A /* USC Visual SupplyUITests */,
+				EEAC610627498A960022293A /* Products */,
+				35B1342849AAB3DB6C6A287F /* Pods */,
+				925FD615D485554B53D36B75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAC610627498A960022293A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC610527498A960022293A /* USC Visual Supply.app */,
+				EEAC611B27498A970022293A /* USC Visual SupplyTests.xctest */,
+				EEAC612527498A970022293A /* USC Visual SupplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAC610727498A960022293A /* USC Visual Supply */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC610827498A960022293A /* AppDelegate.swift */,
+				EEAC610A27498A960022293A /* SceneDelegate.swift */,
+				EEAC610C27498A960022293A /* ViewController.swift */,
+				EE2C588127527A6B008817DC /* ImageViewController.swift */,
+				EE2C58AD276EBA63008817DC /* ImageDetailViewController.swift */,
+				EE2C58A9275C11F8008817DC /* ARViewController.swift */,
+				EEAC610E27498A960022293A /* Main.storyboard */,
+				EEAC611127498A970022293A /* Assets.xcassets */,
+				EEAC611327498A970022293A /* LaunchScreen.storyboard */,
+				EEAC611627498A970022293A /* Info.plist */,
+				EE2C58852752EBC2008817DC /* ImageCollectionViewCell.swift */,
+				EE2C58862752EBC2008817DC /* ImageCollectionViewCell.xib */,
+				EE2C58AB27651776008817DC /* imageModel.swift */,
+				EED79AE927878CD6002DD13D /* GlobalVariables.swift */,
+			);
+			path = "USC Visual Supply";
+			sourceTree = "<group>";
+		};
+		EEAC611E27498A970022293A /* USC Visual SupplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC611F27498A970022293A /* USC_Visual_SupplyTests.swift */,
+			);
+			path = "USC Visual SupplyTests";
+			sourceTree = "<group>";
+		};
+		EEAC612827498A970022293A /* USC Visual SupplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC612927498A970022293A /* USC_Visual_SupplyUITests.swift */,
+				EEAC612B27498A970022293A /* USC_Visual_SupplyUITestsLaunchTests.swift */,
+			);
+			path = "USC Visual SupplyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAC610427498A960022293A /* USC Visual Supply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAC612F27498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual Supply" */;
+			buildPhases = (
+				174FCBCDC6BD6CB65D910C3E /* [CP] Check Pods Manifest.lock */,
+				EEAC610127498A960022293A /* Sources */,
+				EEAC610227498A960022293A /* Frameworks */,
+				EEAC610327498A960022293A /* Resources */,
+				B170E67B46B10C8C8D8F025F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USC Visual Supply";
+			productName = "USC Visual Supply";
+			productReference = EEAC610527498A960022293A /* USC Visual Supply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEAC611A27498A970022293A /* USC Visual SupplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAC613227498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual SupplyTests" */;
+			buildPhases = (
+				E96DD905080D20B906BA6EFD /* [CP] Check Pods Manifest.lock */,
+				EEAC611727498A970022293A /* Sources */,
+				EEAC611827498A970022293A /* Frameworks */,
+				EEAC611927498A970022293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEAC611D27498A970022293A /* PBXTargetDependency */,
+			);
+			name = "USC Visual SupplyTests";
+			productName = "USC Visual SupplyTests";
+			productReference = EEAC611B27498A970022293A /* USC Visual SupplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEAC612427498A970022293A /* USC Visual SupplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAC613527498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual SupplyUITests" */;
+			buildPhases = (
+				868B18F1ECC4C6C52CD47D24 /* [CP] Check Pods Manifest.lock */,
+				EEAC612127498A970022293A /* Sources */,
+				EEAC612227498A970022293A /* Frameworks */,
+				EEAC612327498A970022293A /* Resources */,
+				3C20613FFAA556F259250333 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEAC612727498A970022293A /* PBXTargetDependency */,
+			);
+			name = "USC Visual SupplyUITests";
+			productName = "USC Visual SupplyUITests";
+			productReference = EEAC612527498A970022293A /* USC Visual SupplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAC60FD27498A960022293A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EEAC610427498A960022293A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EEAC611A27498A970022293A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EEAC610427498A960022293A;
+					};
+					EEAC612427498A970022293A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EEAC610427498A960022293A;
+					};
+				};
+			};
+			buildConfigurationList = EEAC610027498A960022293A /* Build configuration list for PBXProject "USC Visual Supply" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAC60FC27498A960022293A;
+			productRefGroup = EEAC610627498A960022293A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAC610427498A960022293A /* USC Visual Supply */,
+				EEAC611A27498A970022293A /* USC Visual SupplyTests */,
+				EEAC612427498A970022293A /* USC Visual SupplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAC610327498A960022293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAC611527498A970022293A /* LaunchScreen.storyboard in Resources */,
+				EEAC611227498A970022293A /* Assets.xcassets in Resources */,
+				EE2C58882752EBC2008817DC /* ImageCollectionViewCell.xib in Resources */,
+				EEAC611027498A960022293A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC611927498A970022293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC612327498A970022293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174FCBCDC6BD6CB65D910C3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USC Visual Supply-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C20613FFAA556F259250333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply-USC Visual SupplyUITests/Pods-USC Visual Supply-USC Visual SupplyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply-USC Visual SupplyUITests/Pods-USC Visual Supply-USC Visual SupplyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply-USC Visual SupplyUITests/Pods-USC Visual Supply-USC Visual SupplyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868B18F1ECC4C6C52CD47D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USC Visual Supply-USC Visual SupplyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B170E67B46B10C8C8D8F025F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply/Pods-USC Visual Supply-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply/Pods-USC Visual Supply-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USC Visual Supply/Pods-USC Visual Supply-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96DD905080D20B906BA6EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USC Visual SupplyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAC610127498A960022293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAC610D27498A960022293A /* ViewController.swift in Sources */,
+				EE2C58872752EBC2008817DC /* ImageCollectionViewCell.swift in Sources */,
+				EEAC610927498A960022293A /* AppDelegate.swift in Sources */,
+				EED79AEA27878CD6002DD13D /* GlobalVariables.swift in Sources */,
+				EE2C58AC27651776008817DC /* imageModel.swift in Sources */,
+				EE2C58AA275C11F8008817DC /* ARViewController.swift in Sources */,
+				EE2C588227527A6B008817DC /* ImageViewController.swift in Sources */,
+				EEAC610B27498A960022293A /* SceneDelegate.swift in Sources */,
+				EE2C58AE276EBA64008817DC /* ImageDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC611727498A970022293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C588327527A6B008817DC /* ImageViewController.swift in Sources */,
+				EEAC612027498A970022293A /* USC_Visual_SupplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAC612127498A970022293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAC612A27498A970022293A /* USC_Visual_SupplyUITests.swift in Sources */,
+				EE2C588427527A6B008817DC /* ImageViewController.swift in Sources */,
+				EEAC612C27498A970022293A /* USC_Visual_SupplyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEAC611D27498A970022293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEAC610427498A960022293A /* USC Visual Supply */;
+			targetProxy = EEAC611C27498A970022293A /* PBXContainerItemProxy */;
+		};
+		EEAC612727498A970022293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEAC610427498A960022293A /* USC Visual Supply */;
+			targetProxy = EEAC612627498A970022293A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEAC610E27498A960022293A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAC610F27498A960022293A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEAC611327498A970022293A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAC611427498A970022293A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEAC612D27498A970022293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAC612E27498A970022293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAC613027498A970022293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B341B13795D0A1206F05CE /* Pods-USC Visual Supply.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "USC Visual Supply/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "USC VS";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to take photos and process it";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App uses camera to take photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEAC613127498A970022293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C253F8D64FCC195D3B5F809 /* Pods-USC Visual Supply.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "USC Visual Supply/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "USC VS";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to take photos and process it";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to collect the current camera location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App uses camera to take photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEAC613327498A970022293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DB3292541D8BEE0738960B /* Pods-USC Visual SupplyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S5J98QVMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d4dalby.USC-Visual-SupplyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USC Visual Supply.app/USC Visual Supply";
+			};
+			name = Debug;
+		};
+		EEAC613427498A970022293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FEACCE19B47C62E1E822B5 /* Pods-USC Visual SupplyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S5J98QVMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d4dalby.USC-Visual-SupplyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USC Visual Supply.app/USC Visual Supply";
+			};
+			name = Release;
+		};
+		EEAC613627498A970022293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49477FD464C92C31F9141B61 /* Pods-USC Visual Supply-USC Visual SupplyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S5J98QVMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d4dalby.USC-Visual-SupplyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USC Visual Supply";
+			};
+			name = Debug;
+		};
+		EEAC613727498A970022293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5194DF0DE5BC1DBE840618 /* Pods-USC Visual Supply-USC Visual SupplyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S5J98QVMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d4dalby.USC-Visual-SupplyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USC Visual Supply";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAC610027498A960022293A /* Build configuration list for PBXProject "USC Visual Supply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAC612D27498A970022293A /* Debug */,
+				EEAC612E27498A970022293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAC612F27498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual Supply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAC613027498A970022293A /* Debug */,
+				EEAC613127498A970022293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAC613227498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual SupplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAC613327498A970022293A /* Debug */,
+				EEAC613427498A970022293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAC613527498A970022293A /* Build configuration list for PBXNativeTarget "USC Visual SupplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAC613627498A970022293A /* Debug */,
+				EEAC613727498A970022293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAC60FD27498A960022293A /* Project object */;
+}
